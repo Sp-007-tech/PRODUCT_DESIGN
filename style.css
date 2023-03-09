@@ -1,11 +1,13 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
+body
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +15,8 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.container
+{
     width: 659px;
     border-radius: 1rem;
     background-color: white;
@@ -21,25 +24,29 @@ body{
     
 }
 
-.sub-container{
+.sub-container
+{
     display: flex;
     justify-content: space-between;
 
 }
 
-.image{
+.image
+{
     width: 50%;
     display: flex;
     flex-direction: column;
 
 }
 
-.image img{
+.image img
+{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.details{
+.details
+{
     width: 50%;
     padding: 1.5rem, 2rem;
     display: flex;
@@ -49,41 +56,48 @@ body{
     padding-top: 3%;
 }
 
-h3{
+h3
+{
     font-family: 'Arial, Helvetica, sans-serif';
     font-size: 2.5rem;
     line-height: 1;
     padding-bottom: 1rem;
 }
 
-p{
+p
+{
     font-size: 0.9rem;
     color: darkolivegreen;
     width: 230px;
     line-height: 1.3rem;
 }
 
-.price{
+.price
+{
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-h1{
+h1
+{
     color: darkgreen;
     font-size: 2rem;
 }
 
-h5{
+h5
+{
     text-decoration: line-through;
     padding-left: 5%;
 }
 
-.btn img{
+.btn img
+{
     color: white;
 }
 
-.btn{
+.btn
+{
     color: white;
     display: flex;
     justify-content: center;
